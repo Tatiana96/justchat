@@ -1,0 +1,28 @@
+{
+    "name": "tatiana96/justchat",
+    "description": "Chat based on web sockets",
+    "type": "yii2-extension",
+    "stability": "stable",
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-mongodb": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "cboden/ratchet": "0.3.*",
+        "bower-asset/underscore": "1.8.3",
+        "bower-asset/backbone": "1.2.*",
+        "bower-asset/js-cookie": "1.5.*",
+        "bower-asset/pnotify": "2.0.1",
+        "bower-asset/fontawesome": "4.3.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "codeception/codeception": "2.*",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tatiana96\\justchat\\": ""
+        }
+    }
+}
