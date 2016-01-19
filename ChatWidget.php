@@ -22,7 +22,7 @@ class ChatWidget extends Widget
         'title' => 'All'
     ];
     
-    public $imgPath = '@vendor/joni-tatiana96/yii2-justchat/assets/img'; // алиас пути к папке с картинками-аватарками
+    public $imgPath = '@vendor/tatiana96/justchat/assets/img'; // алиас пути к папке с картинками-аватарками
 
  
 	// запускаем виджет
